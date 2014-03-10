@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hereby</string>
+    <string name="action_settings">Settings</string>
+    <string name="hereby_intro">Hereby是一个搜寻/发布附近消息的应用</string>
+    <string name="btn_get_local">获取附近信息</string>
+
+</resources>
