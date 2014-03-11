@@ -2,8 +2,10 @@ package com.bloodante.hereby;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -30,6 +32,11 @@ public class MainActivity extends Activity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+	
+	public void onCreateView(LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState){
+	       //Inflate the layout for this fragment
+	       View rootView = inflater.inflate(R.layout.message_list, container,false);
+	   }
 	
 	public void getLocal(View v) {
 		introText.setText("Pending...");
