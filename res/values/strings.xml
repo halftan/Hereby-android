@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="app_name">Hereby</string>
     <string name="action_settings">Settings</string>
     <string name="hereby_intro">Hereby是一个搜寻/发布附近消息的应用</string>
     <string name="btn_get_local">获取附近信息</string>
-
+    <string name="title_message">留言</string>
+    <string name="hint_message">请在这里输入您的留言</string>
+    <string name="send_message_button">发送</string>
+    <string-array name="location">
+        <item >本科生16号宿舍</item>
+        <item >第四教学楼</item>
+        <item >信息楼</item>
+    </string-array>
+    
 </resources>
