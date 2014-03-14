@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/black"
     android:orientation="vertical" >
 
     <TextView
@@ -11,16 +10,17 @@
         android:layout_margin="10dp"
         android:gravity="center"
         android:text="@string/title_message"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="25dp" />
     
     <EditText
-        android:id="@+id/leaveMessage"
+        android:id="@+id/messageText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:hint="@string/hint_message"
-        android:gravity="top|center_horizontal"></EditText>
+        android:gravity="top"
+        android:hint="@string/hint_message" >
+    </EditText>
     
     <Button
         android:layout_width="match_parent"
